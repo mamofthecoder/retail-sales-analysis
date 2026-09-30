@@ -107,8 +107,36 @@ order across all products.
 
 ## Visual Analysis
 
-The notebook includes visualizations for monthly revenue, sales-channel
-revenue and orders, category revenue, and discount behaviour.
+### Monthly Revenue Trend
+
+![Monthly Revenue Trend](images/monthly_revenue.png)
+
+Revenue reached its highest level in **July (about R1.95M)** and its
+lowest in **May (about R1.56M)**.
+
+### Revenue by Product Category
+
+![Revenue by Product Category](images/category_revenue.png)
+
+**Electronics** clearly dominates category revenue, generating
+approximately **R13.57M**.
+
+### Discount Level vs Average Quantity per Order
+
+![Average Quantity per Order by Discount
+Level](images/discount_quantity.png)
+
+Average quantity per order generally rises at higher discount levels,
+although the pattern is not perfectly consistent.
+
+### Discount Level vs Average Revenue per Order
+
+![Average Revenue per Order by Discount
+Level](images/discount_revenue.png)
+
+Average revenue per order generally declines as discounts increase,
+highlighting the observed trade-off between transaction volume and
+revenue per transaction.
 
 ## Conclusion
 
@@ -129,6 +157,11 @@ results identify associations rather than proving causal effects.
 retail-sales-analysis/
 ├── data/
 │   └── retail_sales_project_2.csv
+├── images/
+│   ├── monthly_revenue.png
+│   ├── category_revenue.png
+│   ├── discount_quantity.png
+│   └── discount_revenue.png
 ├── notebooks/
 │   └── Retail-sales-project-polished.ipynb
 └── README.md
